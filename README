@@ -1,0 +1,4 @@
+created a ¡°reflector¡± which acts as a mirror, such that when an adversary is portscanning a network, they will actually be portscanning themselves. When they launch an exploit at the reflector, the attack will be reflected back at them. 
+C
+
+developed this program based on Scapy which can listen to the given network interface and  any IP, TCP or UDP packets sent to the given victim IP address can be sent back to the attacker.
